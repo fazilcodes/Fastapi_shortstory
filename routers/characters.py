@@ -17,7 +17,7 @@ def characters():
         return HTTPException(status_code=status.HTTP_400_BAD_REQUEST)
 
 
-@router.post("/create_characters", status_code=status.HTTP_201_CREATED)
+@router.post("/create_character", status_code=status.HTTP_201_CREATED)
 def create_character(character: CharacterSchema):
     try:
         data = supabase.table("characters").insert({
