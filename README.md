@@ -20,7 +20,8 @@ An api for creating short stories about your imaginary characters
 | :-------- | :------- | :------------------------- |
 |  | `string` | fetches all characters |
 
-#### response:- 
+#### response:- status 200
+![screenshot](github/ss-get_characters.png)
 
 ### Create character
 
@@ -32,6 +33,9 @@ An api for creating short stories about your imaginary characters
 | :-------- | :------- | :-------------------------------- |
 | `      | `string` | create character with name and details |
 
+#### response:- status 201
+![screenshot](github/ss-create_character.png)
+
 ### Generate story
 ```http
   Post /api/generate_story
@@ -41,7 +45,8 @@ An api for creating short stories about your imaginary characters
 | :-------- | :------- | :-------------------------------- |
 | `      | `string` | generates story about the given character|
 
-
+#### response:- status 201
+![screenshot](github/ss-generate_story.png)
 
 
 ## Tech Stack
