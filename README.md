@@ -1,5 +1,6 @@
 
 # Short Story generator
+Live here 🏃[short-story](https://fastapi-shortstory.onrender.com)
 
 An api for creating short stories about your imaginary characters
 
@@ -7,6 +8,7 @@ An api for creating short stories about your imaginary characters
 * ✅Give a character name for generating Story
 * ✅Api will fetch data about the character and its details
 * ✅If the character exists in DB, it will fetch the details of the character and generates a Story
+
 
 ## API Reference
 
