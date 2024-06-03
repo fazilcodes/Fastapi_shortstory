@@ -12,7 +12,7 @@ router = APIRouter(
 def characters():
     try:
         data = supabase.table("characters").select("*").execute()
-        return data
+        return data.data
     except:
         return HTTPException(status_code=status.HTTP_400_BAD_REQUEST)
 
